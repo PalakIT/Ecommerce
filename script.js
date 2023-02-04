@@ -1,14 +1,16 @@
-var bar = document.getElementById("bar");
-var close = document.getElementById("close");
-if (bar) {
-  bar.addEventListener("click", () => {
+const bars = document.getElementsByClassName("material-symbols-outlined");
+const close = document.getElementById("close");
+const nav = document.getElementById("navbar");
+
+if (material-symbols-outlined) {
+  bars.addEventListener("click", () => {
     nav.classList.add("active");
   });
+  if (close) {
+    bars.addEventListener("click", () => {
+      nav.classList.remove ("active");
+    });
 }
-if (close) {
-  close.addEventListener("click", () => {
-    nav.classList.add("active");
-  });
 }
 // const MainImg = document.getElementById("MainImg");
 // const smallimg = document.getElementsByClassName("small-img");
