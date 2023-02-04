@@ -1,15 +1,15 @@
-// const bar = document.getElementById("bar");
-// const close = document.getElementById("close");
-// if (bar) {
-//   bar.addEventListener("click", () => {
-//     nav.classList.add("active");
-//   });
-// }
-// if (close) {
-//   close.addEventListener("click", () => {
-//     nav.classList.add("active");
-//   });
-// }
+var bar = document.getElementById("bar");
+var close = document.getElementById("close");
+if (bar) {
+  bar.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+}
+if (close) {
+  close.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+}
 // const MainImg = document.getElementById("MainImg");
 // const smallimg = document.getElementsByClassName("small-img");
 
