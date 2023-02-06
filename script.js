@@ -1,18 +1,18 @@
-const bars = document.getElementsByClassName("material-symbols-outlined");
-const close = document.getElementById("close");
-const nav = document.getElementById("navbar");
+// const bars = document.getElementsByClassName("material-symbols-outlined");
+// const close = document.getElementById("close");
+// const nav = document.getElementById("navbar");
 
-if (material-symbols-outlined) {
-  bars.addEventListener("click", () => {
-    nav.classList.add("active");
-  });
-  if (close) {
-    bars.addEventListener("click", () => {
-      nav.classList.remove ("active");
-    });
-}
-}
-// const MainImg = document.getElementById("MainImg");
+// if (material-symbols-outlined) {
+//   bars.addEventListener("click", () => {
+//     nav.classList.add("active");
+//   });
+//   if (close) {
+//     bars.addEventListener("click", () => {
+//       nav.classList.remove ("active");
+//     });
+// }
+// }
+// // const MainImg = document.getElementById("MainImg");
 // const smallimg = document.getElementsByClassName("small-img");
 
 // smallimg[0].onclick = function(){
